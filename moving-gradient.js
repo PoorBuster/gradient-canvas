@@ -72,7 +72,7 @@ class App {
 
         for (let i = 0; i < this.totalParticles; i++) {
             const item = this.particles[i];
-            item.animate(this.ctxx, this.stageWidth, this.stageHeight);
+            item.animate(this.ctx, this.stageWidth, this.stageHeight);
         }
 
 
