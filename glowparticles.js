@@ -25,7 +25,7 @@ export class GlowParticle {
         if (this.x < 0) {
             this.vx *= 1;
             this.x += 10;
-        } else if (this.x > stagewidth) {
+        } else if (this.x > stageWidth) {
             this.vx *= -1;
             this.x -= 10;
         }
