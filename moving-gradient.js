@@ -17,10 +17,10 @@ class App {
 
         this.pixelRatio = (window.devicePixelRatio > 1) ? 2 : 1;
 
-        this.totalParticles = 30;
+        this.totalParticles = 3;
         this.particles = [];
-        this.maxRadius = 900;
-        this.minRadius = 400;
+        this.maxRadius = 90;
+        this.minRadius = 40;
         //the larger the number in radius, the more blur
 
         window.addEventListener('resize', this.resize.bind(this), false);
